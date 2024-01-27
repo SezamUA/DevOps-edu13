@@ -38,4 +38,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           chmod 755 ./mvnw
-          ./mvnw -B verify sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=SezamUA
+          ./mvnw -B verify sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=sezamua -Dsonar.projectKey=SezamUA_DevOps-edu13
