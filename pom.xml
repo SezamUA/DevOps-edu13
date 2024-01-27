@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>softserve.academy</groupId>
-    <artifactId>simplecrud</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>simplecrud-killercoda</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
     <name>simplecrud</name>
     <description>simplecrud</description>
     <properties>
