@@ -38,5 +38,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           chmod 755 ./mvnw
-          ./mvnw clean package
           ./mvnw -B verify sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN
